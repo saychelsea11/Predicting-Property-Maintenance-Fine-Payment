@@ -27,7 +27,7 @@ For this project, we had the following three goals in mind:
 - Predict if a person is going to comply with their property maintenance fine or not
 - Understand why people failed to comply
 - Make sure that fines are paid on time
-- 
+
 By identifying the reason for blight non-compliance, the Detroit government could understand better how to approach the people responsible for the maintenance of their properties. If this can be done, it would help in solving the blight issue in two ways:
 
 - Enforce fine payment which would add to funds required to remove blight
