@@ -1,6 +1,6 @@
 # Understanding and predicting compliance for property maintenance fines in Detroit
 
-## Link to blog - http://thecraftofdata.com/2021/04/understanding-and-predicting-compliance-for-property-maintenance-fines-in-detroit
+## [Link to blog](http://thecraftofdata.com/2021/04/understanding-and-predicting-compliance-for-property-maintenance-fines-in-detroit)
 
 ## Detroit's blight problem
 
