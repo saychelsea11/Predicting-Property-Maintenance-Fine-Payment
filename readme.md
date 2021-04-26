@@ -34,3 +34,29 @@ By identifying the reason for blight non-compliance, the Detroit government coul
 
 - Enforce fine payment which would add to funds required to remove blight
 - Help property owners with their maintenance issues and improve upkeep, which as discussed earlier is a significantly cheaper alternative
+
+## Data description
+
+* Training set
+..* Time span: 2004-2011
+..* 250,306 rows
+..* 34 variables
+
+* Test set
+..* Time span: 2012-2016
+..* 61,001 rows
+
+* Addresses
+..* Mapping from ticket ID to addresses AND
+..* Mapping from addresses to latitude and longitude coordinates
+
+Each row in the train and test data corresponded to a single blight ticket, and included information about when, why, and to whom each ticket was issued. The target variable was compliance, which was True if the ticket was paid early, on time, or within one month of the hearing data, False if the ticket was paid after the hearing date or not at all, and Null if the violator was found not responsible.
+
+Since we were trying to predict whether a blight compliance fine would be paid or not, this was a binary classification problem with the following target variables:
+
+* **Class 0**: Non-compliance
+* **Class 1**: Comp;iance
+
+Note that certain variables such as payment amount, balance due etc. were only included in the training data for informational purposes. Since this information was not available in the test set, we could not use them in the modeling process.
+
+The description for each variable in the train and test sets can be be found in [here](https://github.com/saychelsea11/Predicting-Property-Maintenance-Fine-Payment/blob/master/Variables_description.txt).
