@@ -43,12 +43,12 @@ By identifying the reason for blight non-compliance, the Detroit government coul
      * 34 variables
 
 * Test set
-..* Time span: 2012-2016
-..* 61,001 rows
+     * Time span: 2012-2016
+     * 61,001 rows
 
 * Addresses
-..* Mapping from ticket ID to addresses AND
-..* Mapping from addresses to latitude and longitude coordinates
+     * Mapping from ticket ID to addresses AND
+     * Mapping from addresses to latitude and longitude coordinates
 
 Each row in the train and test data corresponded to a single blight ticket, and included information about when, why, and to whom each ticket was issued. The target variable was compliance, which was True if the ticket was paid early, on time, or within one month of the hearing data, False if the ticket was paid after the hearing date or not at all, and Null if the violator was found not responsible.
 
