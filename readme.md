@@ -38,9 +38,9 @@ By identifying the reason for blight non-compliance, the Detroit government coul
 ## Data description
 
 * Training set
-..* Time span: 2004-2011
-..* 250,306 rows
-..* 34 variables
+     * Time span: 2004-2011
+     * 250,306 rows
+     * 34 variables
 
 * Test set
 ..* Time span: 2012-2016
